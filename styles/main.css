@@ -1,0 +1,207 @@
+* {margin: 0;padding: 0}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body {
+	/*background-color: #bcd8eb;*/
+	background-image: url(bgimg2.jpg);
+	/*background-repeat: no-repeat;*/
+	background-position: center;
+	background-size:cover;
+		-moz-background-size:cover;
+		-webkit-background-size:cover;
+}
+#gradeBox {
+	width: 1000px;
+	height: 584px;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -500px;
+	margin-top: -292px;
+}
+.title {
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	color: #F5F5F5;
+/*	padding-top: 40px;*/
+	padding-bottom: 20px;
+	letter-spacing: 5px; 
+}
+#grade_refer {
+	width: 1000px;
+	height: 500px;
+	background-color: #F5F5F5;
+	border-radius: 10px;
+	/*border: 3px solid #000;*/
+	margin: 0 auto;
+	/*margin-top: 40px;*/
+	/*-------透明度设置--------*/
+	filter:alpha(opacity=85);  
+      -moz-opacity:0.85;  
+      -khtml-opacity: 0.85;  
+      opacity: 0.85; 
+}
+.four_gra {
+	float: left;
+	width: 520px;
+	height: 480px;
+	margin: 10px;
+	background-color: #DCDCDC;
+}
+.single_gra {
+	float: left;
+	width: 440px;
+	height: 480px;
+	margin: 10px;
+	background-color: #84BBE1;
+}
+h3 {									/*左右两列h3标题*/
+	text-align: center;
+	font-family: "微软雅黑";
+	margin-top: 30px;
+}
+button {
+	padding: 0 3px;
+}
+.single_gra h3 {
+	margin-bottom: 15px;
+}
+/*存在问题*/
+/*---------------------------左边全部各科成绩--------------------------*/
+
+.stu_num {								/*学号输入提交区域*/          
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.stu_num input {
+	width: 120px;
+	margin: 0 10px;
+}
+.allPercent {
+	width: 440px;
+	margin: auto;             
+	/*margin: 20px auto 0px;*/         /*上边距20px，左右auto，居中显示*/
+}
+.allClass1, .allClass2, .allClass3, .allClass4 {       /*有办法简化吗？？？*/
+	padding: 32px 0;
+}
+.left_per {
+	height: 25px;
+	line-height: 25px;
+	position: absolute;
+	font-family: "Times New Roman";
+	/*margin-left: -50px;*/
+}
+.cla_name {
+	height: 25px;
+	line-height: 25px;
+	float: left;
+}
+.allClass1 div, .allClass2 div, .allClass3 div, .allClass4 div {
+	float: left;
+	display: inline;
+	width: 1px;
+	height: 25px;
+	margin-left: 52px;
+	/*background-color: #84BBE1;*/
+}
+.allClass3 div, .allClass4 div  {       			/*百分比有别的对齐的方式吗？？？*/
+	margin-left: 20px;
+}
+.stu_gra {
+	margin-top: 30px;
+	padding: 5px;
+	width: 180px;
+	font-family: "Times New Roman";
+	background-color: #FFF;
+	border-radius: 5px;
+	float: left;
+}
+.col_explain {
+	margin-top: 30px;
+	margin-left: 230px;
+	padding: 5px;
+}
+.col_explain img {
+	margin: 0 5px;
+}
+.hint {
+	padding-top: 15px;
+	font-size: 10pt; 
+	color: #808080;
+}
+
+/*需要优化*/
+/*---------------------------右边单科成绩--------------------------*/
+.sinClass1, .sinClass2, .sinClass3, .sinClass4 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 0 10px 5px;
+}
+/*.sinClass1 p,.sinClass2 p, .sinClass3 p, .sinClass4 p {
+	font-size: 12px;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 18px;
+	margin-right: 3px;
+	padding: 0 2px;
+}*/
+.input_gra input {
+	width: 120px;
+	/*margin-right: 5px;*/
+	margin-left: 18px;
+}
+.sin_class1_per, .sin_class2_per, .sin_class3_per, .sin_class4_per {
+	width: 160px;
+	height: 0px;
+	background-color: #FFF;
+	border-radius: 10px;
+	margin: 8px 20px 0;
+	/*background-image: url(images/class1b.png);
+	background-repeat: no-repeat;
+	background-position: center;*/
+}
+.single_gra span {
+	margin: 0 55px;
+	font-family: "Times New Roman";
+}
+.single_gra img {
+	width: 120px;
+	height: 120px;
+	margin: 10px 20px;
+}
+/*.sin_class1_per div {
+	width: 180px;
+	height: 80px;
+	background-color: #fff;
+	position: absolute;
+	top: 270px;
+}*/
+/*.sin_class1_per, .sin_class2_per, .sin_class3_per, .sin_class4_per {
+	width: 60px;
+	height: 60px;
+	background-color: #4682B4;
+	border-radius: 50%
+}*/
+
+
+.copyright {
+	width: 200px;
+	margin: auto;
+	margin-top: 10px;
+/*	margin-bottom: 20px; */
+	font-family:"Arial";
+	text-align: center;
+	font-size: 10px;
+	color: #93989f;
+}
+.attention {
+	color: #F00;
+}
